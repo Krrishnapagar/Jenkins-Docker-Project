@@ -1,4 +1,4 @@
-FROM centos:7
+FROM dokken/centos-8
 MAINTAINER vikashashoke@gmail.com
 RUN yum install -y httpd \
  zip\
